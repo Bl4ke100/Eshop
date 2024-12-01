@@ -1,0 +1,18 @@
+.pagination .page-item .page-link {
+    color: black; /* White text color for better contrast */
+    background-color: rgba(59,93,80,255); /* Dark background color */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: rgba(239,242,241,255); /* Dark green background for active page */
+    border-color: rgba(239,242,241,255); /* Darker green border for active page */
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #333; /* Slightly lighter dark background on hover */
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #666; /* Gray text for disabled state */
+    background-color: rgba(59,93,80,255); /* Dark background for disabled state */
+}

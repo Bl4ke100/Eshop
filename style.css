@@ -1,0 +1,119 @@
+.main-body{
+    background-image: url("img/breadcumber2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    background-image: url("resource/logo.svg");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+*{
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.title01{
+    font-family: "Honey";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.background{
+    background-image: url("resource/Tech Heaven.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.title02{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cart-icon{
+    background-image: url("resource/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.poster-img-1{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption{
+    margin-bottom: 200px;
+}
+
+.poster-caption-1{
+    margin-bottom: 70px;
+    margin-right: 280px;
+}
+
+.poster-title{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.poster-txt{
+    font-size: 20px;
+    color: gray;
+}
+
+.signout:hover{
+    cursor: pointer;
+}
+
+.mainImg {
+    width: 100%;
+    height: auto;
+}
+.img-thumbnail {
+    cursor: pointer;
+}
+
+.product-qty {
+    position: relative;
+    width: fit-content;
+    padding-right: 40px; /* Adjust this if needed */
+}
+
+.qty-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qty-inc, .qty-dec {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.qty-inc:hover, .qty-dec:hover {
+    background-color: #f0f0f0;
+}
+
+
